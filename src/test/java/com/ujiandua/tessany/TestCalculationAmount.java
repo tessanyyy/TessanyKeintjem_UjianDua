@@ -22,7 +22,7 @@ public class TestCalculationAmount {
     @Test
     public void testCalculatewithdraw() {
         account.acc_no = 1234444;
-        account.name = "andri";
+        account.name = "tessany";
         account.amount = 10000000;
         account.withdraw(100000);
     }
@@ -30,7 +30,7 @@ public class TestCalculationAmount {
     @Test
     public void TestInsert(){
         account.acc_no=123444;
-        account.name="andri";
+        account.name="tessany";
         account.amount=50000;
         account.display();
     }
